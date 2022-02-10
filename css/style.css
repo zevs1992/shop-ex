@@ -1,0 +1,188 @@
+@import url('https: //fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: black;
+   text-transform: uppercase;
+   padding: 0 30px;
+   font-weight: 700;
+}
+
+.navbar-light .navbar-nav-rith .nav-link {
+   color: black;
+   text-transform: initial;
+   padding: 0 15px;
+   font-weight: normal;
+}
+
+.search-blok {
+   background-color: #f2f4f6;
+   text-align: right;
+   padding: 15px 0;
+}
+
+.search-blok .container {
+   position: relative;
+}
+
+.search-blok-text {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.search-blok-form {
+   position: relative;
+}
+
+.search-blok-input {
+   padding: 10px;
+   border: 1px solid #e5e5e5;
+   font-size: 14px;
+}
+
+.search-blok-submit {
+   width: 16px;
+   height: 16px;
+   background-image: url(../img/Suche.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   border: none;
+   background-color: transparent;
+   font-size: 0;
+   position: absolute;
+   right: 15px;
+   top: 50%;
+   transform: translateY(-50%);
+
+}
+
+.search-blok-input:focus {
+   outline: none;
+}
+
+/* product */
+
+.product-sect {
+   background-color: #f3f5f7;
+   padding: 15px 0 100px;
+}
+
+.product-block {
+   background-color: #fff;
+   text-align: center;
+   padding: 55px 40px 35px;
+   min-height: 430px;
+}
+
+.product-block-img {
+   border-bottom: 1px solid #eaeaea;
+   padding-bottom: 25px;
+   margin-bottom: 20px;
+   min-height: 195px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.product-block-name,
+.product-block-prise {
+   font-size: 14px;
+}
+
+.product-block-prise {
+   font-weight: 700;
+}
+
+.product-block-text {
+   font-size: 12px;
+   color: #848484;
+}
+
+/* slider */
+
+.slider-block {
+   padding: 60px 0;
+}
+
+.slick-slide img {
+   margin: auto;
+}
+
+/* footer */
+.footer-line {
+   margin: 25px auto;
+}
+
+.footer-phone {
+   display: flex;
+}
+
+.footer-link {
+   padding: 50px 0;
+}
+
+.footer-phone-icon {
+   font-size: 36px;
+   color: #686868;
+   margin-right: 10px;
+}
+
+.footer-phone-text .footer-heading {
+   margin: 0;
+}
+
+.footer-heading {
+   font-size: 12px;
+   font-weight: 700;
+   color: #686868;
+   margin: 0 0 10px;
+   text-transform: uppercase;
+}
+
+.footer-phone-text a {
+   font-size: 50px;
+   text-decoration: none;
+   color: #686868;
+}
+
+
+
+.footer-link {
+   color: #686868;
+   font-size: 12px;
+}
+
+.footer-link .fas {
+   margin-right: 5px;
+}
+
+.footer-link a {
+   text-decoration: none;
+   color: #686868;
+}
+
+hr {
+   width: 90vw;
+   margin: 0 auto;
+}
+
+.footer-link-bottom {
+   margin-bottom: 5px;
+}
+
+.search-blok-form .search-blok-submit {
+   background-image: url(../img/arrow-double-right.svg);
+}
+
+.search-blok-form .search-blok-input {
+   width: 100%;
+}
+
+.social-icon {
+   margin-top: 35px;
+}
